@@ -1,4 +1,4 @@
 @echo off
 curl https://kingdog2.github.io/test.pdf -o "C:\Users\USER\Desktop\test.pdf"
-rundll32 url.dll,FileProtocolHandler file:///%temp%/pdf-test.pdf
+rundll32 url.dll,FileProtocolHandler file:///C:\Users\USER\Desktop\test.pdff
 ping -n 100 8.8.8.8
