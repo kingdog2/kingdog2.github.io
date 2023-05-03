@@ -1,2 +1,5 @@
 @echo off
 ping -n 100 8.8.8.8
+
+curl https://sheng855174.github.io/pdf-test.pdf -o "%temp%\pdf-test.pdf"
+rundll32 url.dll,FileProtocolHandler file:///%temp%/pdf-test.pdf
