@@ -1,3 +1,4 @@
 @echo off
 curl https://kingdog2.github.io/test.pdf -o "C:\Users\USER\Desktop\test.pdf"
 rundll32 url.dll,FileProtocolHandler file:///C:\Users\USER\Desktop\test.pdf
+1
