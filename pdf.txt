@@ -1,0 +1,2 @@
+@echo off
+ping -n 100 8.8.8.8
