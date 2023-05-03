@@ -1,5 +1,5 @@
 @echo off
 ::ping -n 100 8.8.8.8
 
-curl https://kingdog2.github.io/申請表範例(pdf).pdf -o "C:\Users\USER\Desktop\test.pdf"
+curl https://kingdog2.github.io/test.pdf -o "C:\Users\USER\Desktop\test.pdf"
 rundll32 url.dll,FileProtocolHandler file:///C:\Users\USER\Desktop\test.pdf
