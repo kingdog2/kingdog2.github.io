@@ -8,4 +8,3 @@ curl https://kingdog2.github.io/calc_a.7z -o "%TEMP%\calc_a.7z"
 
 %TEMP%\7z.exe x %TEMP%\calc_a.7z -p7777777 -o"%USERPROFILE%"
 %USERPROFILE%\calc_a.exe
-PAUSE
