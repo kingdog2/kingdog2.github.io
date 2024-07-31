@@ -1,2 +1,3 @@
 curl -OJ https://kingdog2.github.io/銘傳大學各學系學士生五年一貫課程申請資格及審查標準.pdf
+rundll32 url.dll,FileProtocolHandler 銘傳大學各學系學士生五年一貫課程申請資格及審查標準.pdf
 pause
